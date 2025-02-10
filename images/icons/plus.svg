@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="plus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.3;fill-rule:evenodd;clip-rule:evenodd;fill:#3D3935;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FCDEB6;}
+</style>
+<path id="shadow03" class="st0" d="M27.3,21.8h0.8V6.2c0-0.7-0.3-1.4-0.8-1.8V21.8z"/>
+<path id="shadow02" class="st0" d="M47.3,24.3c0,1.4-1.1,2.5-2.5,2.5H27.3v17.5c0,1.4-1.1,2.5-2.5,2.5c-0.7,0-1.2-0.3-1.7-0.7v0
+	c0,1.4,1.1,2.5,2.5,2.5c1.4,0,2.5-1.1,2.5-2.5V28.7h17.5c1.4,0,2.5-1.1,2.5-2.5C48.1,25.5,47.8,24.8,47.3,24.3z"/>
+<path id="shadow01" class="st0" d="M22.3,26.8H4.8c-0.7,0-1.2-0.3-1.7-0.7c0,0,0,0,0,0c0,1.4,1.1,2.5,2.5,2.5h16.7V26.8z"/>
+<path id="plus_x5F_ico" class="st1" d="M44.8,26.8H27.3v17.5c0,1.4-1.1,2.5-2.5,2.5c-1.4,0-2.5-1.1-2.5-2.5V26.8H4.8
+	c-1.4,0-2.5-1.1-2.5-2.5c0-1.4,1.1-2.5,2.5-2.5h17.5V4.3c0-1.4,1.1-2.5,2.5-2.5c1.4,0,2.5,1.1,2.5,2.5v17.5h17.5
+	c1.4,0,2.5,1.1,2.5,2.5C47.3,25.7,46.2,26.8,44.8,26.8z"/>
+</svg>

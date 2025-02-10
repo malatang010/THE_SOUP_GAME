@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link id='favicon' rel="icon" type="image/x-icon" href="/favicon-1.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Soup Game</title>
+    <meta name="description" content="A game about soup." />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="preload" href="/images/close_icon.png" as="image" />
+    <link rel="preload" href="/images/popup_head_C.png" as="image" />
+    <link rel="preload" href="/images/popup_head_R.png" as="image" />
+    <link rel="preload" href="/images/popup_head_L.png" as="image" />
+    <link rel="preload" href="/images/paper.png" as="image" />
+    <link rel="preload" href="/images/btn_green_big.png" as="image" />
+    <link rel="preload" href="/images/btn_blue_big.png" as="image" fetchpriority="low" />
+    <link rel="preload" href="/images/btn_container_green.png" as="image" fetchpriority="low" />
+    <link rel="preload" href="/images/btn_container_yellow.png" as="image" fetchpriority="low" />
+    <link rel="preload" href="/images/batch_sm.png" as="image" fetchpriority="low" />
+    <link rel="preload" href="/images/batch_md.png" as="image" fetchpriority="low" />
+    <link rel="preload" href="/images/batch_lg.png" as="image" fetchpriority="low" />
+    <link rel="preload" href="/images/batch_xl.png" as="image" fetchpriority="low" />
+    <link rel="preload" href="/images/icons/plus.svg" as="image" fetchpriority="low" />
+    <link rel="preload" href="/images/icons/back.svg" as="image" fetchpriority="low" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://soup.game/" />
+    <meta property="og:title" content="SOUP GAME" />
+    <meta property="og:description" content="A game about soup." />
+    <meta property="og:image" content="https://soup.game/logo-og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="SOUP GAME" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="https://soup.game/" />
+    <meta name="twitter:title" content="SOUP GAME" />
+    <meta name="twitter:creator" content="@TheSoupGame" />
+    <meta property="twitter:description" content="A game about soup." />
+    <meta property="twitter:image" content="https://soup.game/logo-twitter.jpg" />
+    <script>
+      const faviconFrames = [
+        'favicon-1.ico',
+        'favicon-2.ico',
+        'favicon-3.ico',
+        'favicon-4.ico',
+        'favicon-5.ico',
+        'favicon-6.ico',
+        'favicon-7.ico',
+        'favicon-8.ico',
+        'favicon-7.ico',
+        'favicon-6.ico',
+        'favicon-5.ico',
+        'favicon-4.ico',
+        'favicon-3.ico',
+        'favicon-2.ico',
+        'favicon-1.ico',
+      ];
+      const frameDuration = 20;
+      const cyclePause = 6000;
+
+      function playFaviconAnimation() {
+          let currentFrame = 0;
+          const animationInterval = setInterval(() => {
+              const favicon = document.getElementById('favicon');
+              favicon.href = faviconFrames[currentFrame];
+              currentFrame++;
+              if (currentFrame >= faviconFrames.length) {
+                  clearInterval(animationInterval);
+                  setTimeout(playFaviconAnimation, cyclePause);
+              }
+          }, frameDuration);
+      }
+
+      playFaviconAnimation();
+    </script>
+    <script type="module" crossorigin src="/assets/index-DRucHwRK.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B-4sXFVt.css">
+  </head>
+  <body class="scrollbar-thin">
+    <div id="root"></div>
+  </body>
+</html>
